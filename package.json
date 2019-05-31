@@ -1,0 +1,13 @@
+{
+  "name": "netflix-react",
+  "version": "1.0.0",
+  "description": "A netflix demo clone using react",
+  "main": "index.js",
+  "author": "xa.mohsen",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}
