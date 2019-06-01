@@ -22,7 +22,8 @@
   },
   "scripts": {
     "test": "jest -o --watch",
-    "start": "webpack-dev-server --open"
+    "start": "webpack-dev-server --open",
+    "build": "webpack --mode production"
   },
   "dependencies": {
     "react": "^16.8.6",
