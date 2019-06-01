@@ -2,7 +2,7 @@
   "name": "netflix-react",
   "version": "1.0.0",
   "description": "A netflix demo clone using react",
-  "homepage": "https://xamohsen.github.io/netfilex-react",
+  "homepage": "https://xamohsen.github.io/netflix-react",
   "main": "app/index.js",
   "author": "xa.mohsen",
   "license": "MIT",
