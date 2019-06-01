@@ -1,8 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from "./components/App"
-import './index.css';
+import './styles/index.css';
+import Navbar from "./components/Navbar";
 
 
-
-ReactDOM.render(<App/>, document.getElementById('app'));
+ReactDOM.render(<App/>, document.getElementById('main'));
+ReactDOM.render(<Navbar/>, document.getElementById('header'));

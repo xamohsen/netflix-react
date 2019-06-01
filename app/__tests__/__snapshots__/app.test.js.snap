@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Link changes the class when hovered 1`] = `
-<div>
+exports[`App component snapshot 1`] = `
+<p>
   Hello World
-</div>
+</p>
 `;

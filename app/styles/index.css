@@ -1,0 +1,44 @@
+header img {
+    margin-left: 40px;
+    height: 80px;
+}
+body {
+    background-image: url('https://occ-0-299-784.1.nflxso.net/art/e286b/bdebc8b1a06ae25b6b230397bee5f60da7ae286b.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: sans-serif;
+    margin-top: 80px;
+    padding: 30px;
+    background-color: #141414;
+}
+
+main {
+    color: white;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+}
+.nav{
+    display: flex;
+    align-items: center;
+}
+
+header * {
+    display: inline;
+}
+
+header li {
+    margin: 20px;
+}
+
+header li a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #fff;
+    background-color: transparent;
+}
