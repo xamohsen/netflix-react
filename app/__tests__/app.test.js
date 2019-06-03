@@ -6,7 +6,7 @@ import {
 } from '@testing-library/react';
 import App from "../components/App";
 
-test('App component snapshot', () => {
+test.skip('App component snapshot', () => {
   const component = renderer.create(<App/>);
   const tree = component.toJSON();
   expect(tree).toMatchSnapshot();
