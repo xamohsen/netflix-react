@@ -1,10 +1,18 @@
 import React from 'react';
-import '../styles/ShowsSlider.css'
-const ShowsSlider = () => {
+import '../styles/ShowsSlider.css';
+import Card from './Card'
+
+const ShowsSlider = (props) => {
+
   return (<div className={"container"}>
-    <div className={"item"} data-testid={"item-0"}>{"First Slide"}</div>
-    <div className={"item"} data-testid={"item-1"}>{"Second Slide"}</div>
-    <div className={"item"} data-testid={"item-2"}>{"Third Slide"}</div>
+    {
+      props.cards.map((card, index) => {
+          return <Card image={card}
+                       testid={`item-${index}`}
+                       key={index}/>
+        }
+      )
+    }
   </div>)
 };
 

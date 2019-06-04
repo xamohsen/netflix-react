@@ -1,23 +1,9 @@
 .container {
     display: flex;
-    padding: 0px;
+    padding: 30px;
+    position: relative;
 }
 
-.item {
-    background: red;
-    flex: 0 0 19.7%;
-    text-align: center;
-    margin:  2px;
-}
-.item:hover {
-    transform: scale(1.5) !important;
-}
-.container:hover .item {
-    transform: translateX(-25%);
-}
-.item:hover ~ .item {
-    transform: translateX(25%);
-}
 .content {
     height: 120px;
     position: relative;

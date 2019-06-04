@@ -12,7 +12,7 @@ test.skip('App component snapshot', () => {
   expect(tree).toMatchSnapshot();
 });
 
-test('renders hello world text', async () => {
+test.skip('renders hello world text', async () => {
   const {getByText} = render(<App/>);
   await waitForElement(() => getByText(/Hello World/));
 });

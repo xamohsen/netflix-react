@@ -1,10 +1,13 @@
 import React from "react";
-import ShowsSlider from './ShowsSlider'
+import MainView from "./MainView";
+import Navbar from "./Navbar";
 
-const App = () => <div>
-  <p>{"Hello World"}</p>
 
-    <ShowsSlider items={[1, 2, 3]}/>
-</div>;
+const App = () => {
+  return <div>
+    <Navbar />
+    <MainView testid={"home"} text={"Hello World"}/>
+  </div>;
+};
 
 export default App;
