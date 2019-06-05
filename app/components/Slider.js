@@ -1,10 +1,12 @@
 import React from 'react';
 import '../styles/ShowsSlider.css';
 import Card from './Card'
+import SliderButton from "./SliderButton";
 
-const ShowsSlider = (props) => {
+const Slider = (props) => {
 
   return (<div className={"container"}>
+    <SliderButton direction={'left'}/>
     {
       props.cards.map((card, index) => {
           return <Card image={card}
@@ -13,7 +15,8 @@ const ShowsSlider = (props) => {
         }
       )
     }
+    <SliderButton direction={'right'}/>
   </div>)
 };
 
-export default ShowsSlider;
+export default Slider;

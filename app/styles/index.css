@@ -1,4 +1,4 @@
-header img {
+ img {
     margin-left: 40px;
     height: 60px;
 }
@@ -18,8 +18,8 @@ main {
     top: 0;
     left: 0;
     right: 0;
-    height: 60px;
-    z-index: 10;
+    height: 80px;
+    z-index: 2;
 }
 
 .nav {
