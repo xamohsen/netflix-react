@@ -1,7 +1,8 @@
 header img {
     margin-left: 40px;
-    height: 80px;
+    height: 60px;
 }
+
 body {
     font-family: sans-serif;
     background-color: #141414;
@@ -17,13 +18,20 @@ main {
     top: 0;
     left: 0;
     right: 0;
-    height: 80px;
+    height: 60px;
     z-index: 10;
 }
-.nav{
+
+.nav {
     display: flex;
     align-items: center;
 }
+
+.black {
+    background-color: #141414;
+    transition: background-color 500ms linear;
+}
+
 
 header * {
     display: inline;

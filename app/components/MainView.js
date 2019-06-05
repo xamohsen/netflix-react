@@ -12,8 +12,10 @@ const MainView = (props) => {
     <div data-testid={props.testid}
          className={"main"}>
     </div>
-      <ShowsSlider cards={[image1, image2, image3, image1, image2]}/>
-      <ShowsSlider cards={[image2, image3, image1, image2, image1]}/>
+    <ShowsSlider cards={[image1, image2, image3, image1, image2]}/>
+    <ShowsSlider cards={[image2, image3, image1, image2, image1]}/>
+    <ShowsSlider cards={[image1, image2, image3, image1, image2]}/>
+    <ShowsSlider cards={[image2, image3, image1, image2, image1]}/>
   </div>)
 };
 export default MainView;
