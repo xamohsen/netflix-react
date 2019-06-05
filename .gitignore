@@ -118,4 +118,5 @@ Temporary Items
 .apdisk
 
 .idea/
+dist/
 yarn.lock
